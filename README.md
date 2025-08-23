@@ -1,5 +1,14 @@
-# Cheat-Sheets
+# Docker on macOS Silicon
+## Installation
+Docker Desktop
 
-These are my Cheat-Sheets I use for various projects, tools and technologies. They are separated in sections like Tools, Infrastructure, Cybersecurity, and much more.
+## Platform
+```
+docker run --platform linux/arm/v7
 
-I created them as free resources to be used in your specific use cases.
+docker run --platform linux/amd64
+```
+
+## Shared volumes
+Shared volumes can be configured in the Docker Desktop Settings `Docker -> Preferences... -> Resources -> File Sharing`
+
